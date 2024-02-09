@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+h1 {
+  background-color: rgb(5, 5, 75);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container,
+.cal {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 50px;
+  margin-top: 5%;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  image-rendering: auto;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+img:hover {
+  border: 5px solid black;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.win {
+  width: 20%;
+  background-color: green;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin: 30px auto;
+  color: white;
+}
